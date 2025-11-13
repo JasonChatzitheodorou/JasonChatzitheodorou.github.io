@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> Columbia, New York </p>
-    <p> <code>ic2621@columbia.edu<\code>  <\p>
+    <p> <pre>ic2621@columbia.edu</pre> </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,3 +29,7 @@ latest_posts:
 Hello! I am a PhD student in the IEOR department of [Columbia University](https://www.columbia.edu/), advised by [Eric Balkanski](https://ericbalkanski.com/). I am generally interested in the areas of combinatorial and stochastic optimization, with a focus on beyond-worst case analysis and online algorithms.
 
 Before joining Columbia, I finished by undergraduate studies in the ECE department of the [National Technical University of Athens](https://www.ntua.gr/en/) where I was advised by [Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
+
+## Publications
+
+{% bibliography --query @*[selected=true] %}
