@@ -14,12 +14,13 @@ profile:
       <p>New York</p>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     </div>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
