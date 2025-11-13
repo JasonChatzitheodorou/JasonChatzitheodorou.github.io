@@ -8,9 +8,15 @@ profile:
   image: jason.jpg
   image_circular: false # crops the image to make it circular
   more_info:  > 
-    <p style="text-align: center;"> PhD Student </p>
-    <p style="text-align: center;"> Columbia University, New York </p>
-    <div style="text-align: center;"> {% include social.liquid %} </div>
+    <div style="text-align: center;">
+      <p>PhD Student</p>
+      <p>Columbia University</p>
+      <p>New York</p>
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+      </div>
+    </div>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
