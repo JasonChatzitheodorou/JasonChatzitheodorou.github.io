@@ -32,7 +32,17 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="more-info">
+            {{ page.profile.more_info }}
+            
+            <!-- Social -->
+            {% if page.social %}
+              <div class="social">
+                <div class="contact-icons">{% include social.liquid %}</div>
+                <div class="contact-note">{{ site.contact_note }}</div>
+              </div>
+            {% endif %}
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -61,15 +71,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

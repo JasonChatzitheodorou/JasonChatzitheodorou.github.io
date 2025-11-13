@@ -12,10 +12,6 @@ profile:
       <p>PhD Student</p>
       <p>Columbia University</p>
       <p>New York</p>
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     </div>
 
 
@@ -33,9 +29,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm Jason! I am a PhD student in the IEOR department of [Columbia University](https://www.columbia.edu/), advised by [Eric Balkanski](https://ericbalkanski.com/). I am generally interested in the areas of combinatorial and stochastic optimization, with a focus on beyond-worst case analysis and online algorithms.
+Hello, I'm Jason! I am a PhD student in the IEOR department of [Columbia University](https://www.columbia.edu/), advised by [Eric Balkanski](https://ericbalkanski.com/). I am generally interested in the areas of combinatorial and stochastic optimization, with a focus on beyond-worst-case analysis and online algorithms.
 
-Before joining Columbia, I finished by undergraduate studies in the ECE department of the [National Technical University of Athens](https://www.ntua.gr/en/) where I was advised by [Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
+Before joining Columbia, I finished my undergraduate studies in the ECE department of the [National Technical University of Athens](https://www.ntua.gr/en/) where I was advised by [Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
 
 ## Publications
 
