@@ -35,8 +35,6 @@ I am generally interested in the areas of combinatorial and stochastic optimizat
 
 ## Publications
 
-{% include bib_search.liquid %}
-
 <div class="publications">
 
 {% bibliography %}
@@ -48,4 +46,4 @@ I am generally interested in the areas of combinatorial and stochastic optimizat
 1. Miller Fellowship
 By Columbia for the 2023 Fall Semester
 1. The Great Moment for Education
-By Eurobank for the highest grade of in the nationwide "Panhellenic" exams among each high school in Greece
+By Eurobank for the highest grade in the nationwide "Panhellenic" exams among each high school in Greece
