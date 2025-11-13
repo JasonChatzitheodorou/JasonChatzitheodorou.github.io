@@ -43,7 +43,5 @@ I am generally interested in the areas of combinatorial and stochastic optimizat
 
 ## Awards
 
-1. Miller Fellowship
-By Columbia for the 2023 Fall Semester
-1. The Great Moment for Education
-By Eurobank for the highest grade in the nationwide "Panhellenic" exams among each high school in Greece
+1. Miller Fellowship: By Columbia for the 2023 Fall Semester
+1. The Great Moment for Education: By Eurobank for the highest grade in the nationwide "Panhellenic" exams among each high school in Greece
