@@ -15,7 +15,7 @@ profile:
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page 
 
 announcements:
   enabled: false # includes a list of news items
@@ -35,11 +35,7 @@ I am generally interested in the areas of combinatorial and stochastic optimizat
 
 ## Publications
 
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<div class="publications"> {% bibliography %} </div>
 
 ## Awards
 
