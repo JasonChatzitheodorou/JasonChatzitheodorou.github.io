@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://JasonChatzitheodorou.github.io/sitemap.xml
+Sitemap: https://jasonchatzitheodorou.github.io/sitemap.xml
