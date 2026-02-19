@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+description: Jason Chatzitheodorou is a PhD student at Columbia University working on combinatorial and stochastic optimization.
+keywords: Jason Chatzitheodorou, Columbia IEOR, combinatorial optimization, stochastic optimization, online algorithms
 
 profile:
   align: right
