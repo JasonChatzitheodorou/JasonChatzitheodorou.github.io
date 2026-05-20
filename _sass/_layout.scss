@@ -38,19 +38,15 @@ body.sticky-bottom-footer {
   }
 }
 
-.post {
-  display: flex;
-  align-items: flex-start;
-}
-
-.post article {
-  flex: 1;
-  min-width: 0;
-}
-
-.post .profile {
-  flex: 0 0 320px;
+.profile {
+  width: 320px;
+  min-width: 320px;
+  float: right;
   margin-left: 2rem;
+
+  img {
+    width: 100%;
+  }
 }
 
 // TODO: redefine content layout.
