@@ -38,7 +38,7 @@ I am generally interested in the areas of combinatorial and stochastic optimizat
 
 ## Publications
 
-<div class="publications"> {% bibliography %} </div>
+<div class="publications"> {% bibliography %} </div> 
 
 ## Awards
 
