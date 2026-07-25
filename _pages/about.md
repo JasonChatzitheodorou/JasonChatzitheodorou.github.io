@@ -34,8 +34,6 @@ Hello, I'm Jason! I am a PhD student in the [IEOR](https://ieor.columbia.edu/) d
 
 I am generally interested in the areas of combinatorial and stochastic optimization, with a focus on beyond-worst-case analysis and decision-making under uncertainty. Some problems I am actively working on are stochastic online matching, online clustering and submodular maximization. During my undergraduate thesis I focused on algorithms with machine learning predictions.
 
-<div style="clear: both;"></div>
-
 ## Publications
 
 <div class="publications"> {% bibliography %} </div> 
