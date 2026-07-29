@@ -32,34 +32,17 @@ body.sticky-bottom-footer {
 }
 
 
-.post {
-  display: flex;
-  align-items: flex-start;
-}
-.post article {
-  flex: 1;
-  min-width: 0;
-}
-.post .profile {
-  flex: 0 0 320px;
+.profile {
   img {
     width: 100%;
   }
 }
 
-article {
-  margin-right: 360px;
-}
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
-.publications .bibliography .row {
-  width: 100%;
-  margin-right: 0;
-}
 
 /*****************************************************************************
 * Projects
